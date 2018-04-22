@@ -14,7 +14,7 @@ sudo nano /etc/rc.local
 Find the line which reads exit 0 and type the following above that line (replace pankymathur with your Ubuntu username):
 
 
-/home/pankymathur/minestart.sh 15 &
+/home/pankymathur/ethereum-mining-cuda/minestart.sh 15 &
 
 
 #For questions & bugs please open issue under repo. 
