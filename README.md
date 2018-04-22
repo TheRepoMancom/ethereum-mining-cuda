@@ -28,7 +28,7 @@ fi
 
 sleep $DELAY
 
-cd /usr/local/claymore95
+cd ethereum-mining-cuda
 
 su pankymathur -c "screen -dmS ethm ./mine.sh"
 
