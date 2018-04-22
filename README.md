@@ -3,4 +3,4 @@ One spot script install ubuntu 16.04, update all packages, install CUDA, install
 Just add your ethereum address.. 
 
 
-For questions, issues, please open issues. 
+For questions & bugs please open issue under repo. 
