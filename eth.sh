@@ -14,7 +14,7 @@
     if [ -e /.os_check ]
     then
         :
-    elif [[ "$(uname -v)" =~ .*16.04.* ]]
+    elif [[ "$(uname -v)" =~ .*16.* ]]
     then
         touch /.os_check
     else
@@ -156,9 +156,9 @@
     else
         printf "%s\n" "Grabbing driver, this may take a while..." 1>&3 2>&4
         apt-get -y --allow-unauthenticated install "$driver_version"
-        printf "%s\n" "Done, system will reboot in 10 seconds..." 1>&3 2>&4
+        printf "%s\n" "Done, system will reboot in 60 seconds..." 1>&3 2>&4
         printf "%s\n" "This will continue automatically upon reboot..." 1>&3 2>&4
-        sleep 10s
+        sleep 60s
         systemctl reboot
     fi
 
