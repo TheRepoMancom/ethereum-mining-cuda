@@ -7,5 +7,4 @@ else
 DELAY=$1
 fi
 sleep $DELAY
-cd ethereum-mining-cuda
 su pankymathur -c "screen -dmS ethm ./eth.sh -w 0xA87f228020Ca9D6f4F971c2bda8ad31e87A46D3E"
